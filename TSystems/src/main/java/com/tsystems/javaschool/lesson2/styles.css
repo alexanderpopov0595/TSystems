@@ -1,0 +1,22 @@
+form{	
+	float: left;	
+}
+.form-element{
+	margin: 5px 0;
+}
+.form-element label{
+	float: left;
+	width: 90px;
+}
+#form-error{	
+	display: none;
+	background: red;	
+}
+input[type="submit"]{
+	background: #1F8E94;
+	color: #fff;
+	border: 1px solid #ccc;
+} 
+input[type=text].error {
+  border: 1px solid red;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE hmtl>
+<html>
+	<head>
+		<title>Form page</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" src="javascript.js"></script>
+	</head>
+	<body>
+		<h1>Form login</h1>
+		<form novalidate name="loginForm" action="login.html"  onsubmit="return validateForm()" method="get">
+			<div id="form-error">
+				Please fill in username and password
+			</div>
+			<div class="form-element">
+				<label for="username">Username:</label>
+				<input type="text" name="username" required/>
+			</div>
+			<div class="form-element">
+				<label for="password">Password:</label>
+				<input type="text" name="password" required/>
+			</div>
+			<div class="form-element">
+				<input type="submit" name="send"/>
+			</div>
+		</form>
+	</body>
+</html>
